@@ -4,7 +4,7 @@
   var express = require('express');
   var router = express.Router();
   var mongojs = require('mongojs');
-  var db = mongojs('mongodb://admin:admin123@ds063809.mongolab.com:63809/meantodo', ['todos']);
+  var db = mongojs('mongodb://user5TJ:EMVBOd4DS3bfK5Vk@mongodb-todo-alch.44fs.preview.openshiftapps.com', ['todos']);
 
   /* GET home page. */
   router.get('/', function(req, res) {
